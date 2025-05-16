@@ -1,7 +1,7 @@
 const socket = io(
   window.location.hostname === 'localhost'
   ? 'ws://localhost:3500'
-  : 'https://chat-app-2-utvb.onrender.com'
+  : 'wss://chat-app-2-utvb.onrender.com'
 )
 
 const msgInput = document.querySelector('#message')
