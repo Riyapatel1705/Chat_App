@@ -1,8 +1,4 @@
-const socket = io(
-  window.location.hostname === 'localhost'
-  ? 'ws://localhost:3500'
-  : 'wss://chat-app-2-utvb.onrender.com'
-)
+const socket = io();
 
 const msgInput = document.querySelector('#message')
 const nameInput = document.querySelector('#name')
